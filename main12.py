@@ -1,0 +1,16 @@
+from tkinter import *
+top=Tk()
+top.title("hi i am spinbox")
+top.geometry("250x300")
+top.config(bg="brown")
+# LB1=Listbox(top)
+# LB1.insert(1,"hindi")
+# LB1.insert(2,"tamil")
+# LB1.insert(3,"english")
+# LB1.insert(4,"bhojpuri")
+# LB1.pack()
+# top.mainloop()
+
+s=Spinbox(top,from_=0,to=10)
+s.pack()
+top.mainloop()
